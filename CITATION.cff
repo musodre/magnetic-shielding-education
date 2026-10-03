@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this software when using these scripts."
+type: software
+title: "Magnetic shielding teaching software"
+version: "1.0.0"
+license: MIT
+authors:
+  - family-names: "Marques"
+    given-names: "Murilo S."
+  - family-names: "Marques"
+    given-names: "Rafael R."
+  - family-names: "da Silva"
+    given-names: "Jonatan J."
+  - family-names: "de Almeida Júnior"
+    given-names: "Edward F."
+abstract: "Exact magnetostatic fields, figure generation and proposed teaching activities for concentric spherical and transverse cylindrical shells. Locally prepared package; no public release or DOI is asserted."
+keywords:
+  - magnetostatics
+  - magnetic shielding
+  - physics education
+  - Python

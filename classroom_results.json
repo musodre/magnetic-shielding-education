@@ -1,0 +1,54 @@
+{
+  "configuration": {
+    "mu_r": 1000.0,
+    "k": 0.5,
+    "H0_A_per_m": 1.0,
+    "geometry": "sphere"
+  },
+  "SF": 195.05574999999996,
+  "H_cavity_A_per_m": 0.005126739406554281,
+  "H_cavity_over_H0": 0.005126739406554281,
+  "crossing_k": 0.4215351654086268,
+  "validation": {
+    "max_interface_residual_normalized_by_H0": 5.357655744174457e-15,
+    "max_relative_SF_consistency_error": 4.447216820777587e-15,
+    "crossing_k": 0.4215351654086268,
+    "tested_mu": [
+      1,
+      2,
+      10,
+      1000,
+      100000
+    ],
+    "tested_k": [
+      0.3,
+      0.5,
+      0.8,
+      0.99
+    ],
+    "interface_tolerance": 1e-10,
+    "checks": "interfaces, SF equivalence, crossing, ordering, limits, H0 scaling"
+  },
+  "thresholds_5_percent": [
+    [
+      "sphere",
+      0.5,
+      60.03078996172464
+    ],
+    [
+      "cylinder",
+      0.5,
+      63.63192558596493
+    ],
+    [
+      "sphere",
+      0.95,
+      561.5079829394473
+    ],
+    [
+      "cylinder",
+      0.95,
+      741.5128027804368
+    ]
+  ]
+}

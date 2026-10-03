@@ -1,0 +1,32 @@
+========================================================================
+(A) Harmonic-uniqueness check: |det| of the homogeneous BC system
+    (nonzero determinant  =>  that harmonic is NOT excited)
+========================================================================
+ harmonic   |det| cylinder     |det| sphere
+        2       5.8727e-02       3.0343e-02
+        3       1.5413e-02       7.7679e-03
+        4       3.8988e-03       1.9533e-03
+        5       9.7756e-04       4.8904e-04
+        6       2.4457e-04       1.2230e-04
+-> sampled determinants are nonzero for orders 2--6 in this case.
+   General uniformity follows from the analytical uniqueness proof.
+
+========================================================================
+(B) Independent radial solve of the nu = 1 mode (finite volumes)
+========================================================================
+exact H_int, infinite domain        : 5.31560932e-03
+exact H_int, truncated at R = 5.5 m : 6.12250556e-03   (finite-boundary effect: 15.2%)
+
+    h (m)     H_int (FD)  vs truncated exact  max dev. of f(s)/s
+   0.0100 6.12257931e-03            1.20e-05            1.64e-14
+   0.0050 6.12252400e-03            3.01e-06            3.22e-14
+   0.0025 6.12251017e-03            7.53e-07            1.98e-13
+
+refinement ratios of the H_int error: 4.00, 4.00  (~4 = clean second-order convergence)
+note: the deviation of f(s)/s from a constant is already at MACHINE
+PRECISION (~1e-13) at every resolution -- the computed cavity field
+is uniform to rounding error, independent of h.
+-> f(s) is a straight line through the origin inside the cavity:
+   the interior field is UNIFORM and the streamlines are STRAIGHT.
+   This solver assumes the order-one angular dependence.
+   It verifies the modal problem; the general proof is analytical.

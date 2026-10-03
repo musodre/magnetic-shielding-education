@@ -1,0 +1,20 @@
+{
+  "max_interface_residual_normalized_by_H0": 5.357655744174457e-15,
+  "max_relative_SF_consistency_error": 4.447216820777587e-15,
+  "crossing_k": 0.4215351654086268,
+  "tested_mu": [
+    1,
+    2,
+    10,
+    1000,
+    100000
+  ],
+  "tested_k": [
+    0.3,
+    0.5,
+    0.8,
+    0.99
+  ],
+  "interface_tolerance": 1e-10,
+  "checks": "interfaces, SF equivalence, crossing, ordering, limits, H0 scaling"
+}
