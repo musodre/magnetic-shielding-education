@@ -2,14 +2,16 @@ cff-version: 1.2.0
 message: "Please cite this software when using these scripts."
 type: software
 title: "Magnetic shielding teaching software"
-version: "1.0.0"
+version: "1.0.1"
 license: MIT
 authors:
   - family-names: "Marques"
     given-names: "Murilo S."
   - family-names: "de Almeida Júnior"
     given-names: "Edward F."
-abstract: "Exact magnetostatic fields, figure generation and proposed teaching activities for concentric spherical and transverse cylindrical shells. Locally prepared package; no public release or DOI is asserted."
+abstract: "Exact magnetostatic fields, figure generation and proposed teaching activities for concentric spherical and transverse cylindrical shells. Includes interface checks, approximation-error analysis and modal finite-volume verification. Teaching activities have not been evaluated with students."
+date-released: "2026-10-03"
+repository-code: "https://github.com/musodre/magnetic-shielding-education"
 keywords:
   - magnetostatics
   - magnetic shielding
