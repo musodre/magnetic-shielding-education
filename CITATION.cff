@@ -7,10 +7,6 @@ license: MIT
 authors:
   - family-names: "Marques"
     given-names: "Murilo S."
-  - family-names: "Marques"
-    given-names: "Rafael R."
-  - family-names: "da Silva"
-    given-names: "Jonatan J."
   - family-names: "de Almeida Júnior"
     given-names: "Edward F."
 abstract: "Exact magnetostatic fields, figure generation and proposed teaching activities for concentric spherical and transverse cylindrical shells. Locally prepared package; no public release or DOI is asserted."
